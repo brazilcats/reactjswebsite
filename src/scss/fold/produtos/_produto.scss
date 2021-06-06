@@ -1,0 +1,31 @@
+    #thumber {
+        max-height: 400px;
+    }
+
+    .img-small {
+        max-width: 100px;        
+    }
+
+    .holder {   
+    width: 50%;
+    display: inline-block;    
+    }
+    
+    .holder img {
+    width: 100%;
+    height: auto;    
+    }
+    
+    .item-imagegroup {
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .item-tablecell {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+    }
+    

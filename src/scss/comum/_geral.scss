@@ -1,0 +1,30 @@
+
+.flex-container {
+display: flex;
+}
+
+.flex-container > div {
+font-size: 1rem;
+}
+
+#visualizar:focus {
+outline: 0;
+}
+
+
+.carousel-item {
+height: 50vh;
+background-color: #5a5c69;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+/* 480px */
+@media (max-width: 30em){
+    .carousel-item{
+        height: 25vh;
+    }
+}  

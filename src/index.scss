@@ -1,0 +1,80 @@
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import "scss/variables.scss";
+
+$verde: #2fa884;
+$roxo: #856694;
+$branco: #fff;
+$largura: 1300px;
+$body-bg: #fff;
+$body-color: #111;
+$azulbk: #D0D5F2;
+$azulescuro:#785c8a;
+$cinza: #7E8283;
+$spacer : 1rem;
+$bl : #6b0f1a;
+$enable-shadows: true;
+$enable-gradients: true;
+
+$theme-colors: (
+  "primary": #0074d9,
+  "bl": $bl,
+  "danger": #ff4136,
+  "orange": #d36833,
+  "azulescuro": $azulescuro,
+  "azulbk": $azulbk,
+  "branco": $branco,
+  "verde": $verde,
+  "roxo" : $roxo,
+  "outro" : $roxo
+);
+
+// Import Bootstrap
+@import "vendor/bootstrap/scss/bootstrap.scss";
+@import "scss/slick";
+@import "scss/slick-theme";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "scss/mixins.scss";
+@import "scss/global.scss";
+@import "scss/utilities.scss";
+
+// Custom Components
+@import "scss/dropdowns.scss";
+@import "scss/navs.scss";
+@import "scss/buttons.scss";
+@import "scss/cards.scss";
+@import "scss/charts.scss";
+@import "scss/login.scss";
+@import "scss/error.scss";
+@import "scss/footer.scss";
+
+
+* {
+    outline: none !important;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  #Avatar {
+    text-align:center;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .container {
+    max-width: calc(#{$largura} - 40px);
+  }
+  
+  .ds_none{
+    display: none !important;
+  }
+  
+// Pages deias
+
+@import "scss/index.scss";
